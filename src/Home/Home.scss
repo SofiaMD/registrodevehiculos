@@ -1,0 +1,37 @@
+.Div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .padre {
+    background: yellow;
+    height: 150px;
+    /*IMPORTANTE*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .hijo {
+   justify-content: center;
+    //background: rgb(0, 0, 0);
+    //width: 120px;
+    color: black;
+ 
+  }
+ 
+  .LogoRV{
+   margin: '100%';
+   width: '15px';
+   height: '50px';
+   align-content: center;
+  }
+ 
+  .Titulo{
+    
+   text-align: center;
+   font-family: cursive;
+   font-size: 70px;
+ }

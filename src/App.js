@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Ruta2 from './Router/Router'
+
+// const express = require('express');
+// const app = express();
+
+// const port = process.env.PORT || 3000;
+
+// //Conexion a base de datos 
+// const mongoose = require('mongoose');
+
+// const user = 'sofiaduarte922';
+// const password = 'Registrovehicular2023';
+// const dbname = 'Registro'
+// const uri = `mongodb+srv://${user}:${password}${dbname}.8lrioiz.mongodb.net/`;
+
+// mongoose.connect(uri, 
+// { useNewUrlParser: true, useUnifiedTopology: true} //no aparezcan mensajes enn la consola
+// )
+//     .then(() => console.long('Base de Datos conectada'))
+//     .catch(e => console.long(e))
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Ruta2 />
+    </>
+  )
 }
 
-export default App;
+export default App
